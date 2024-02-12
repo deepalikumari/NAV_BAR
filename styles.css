@@ -1,0 +1,40 @@
+/* Resetting default margin and padding */
+body, nav, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the navigation bar */
+header {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block; /* Display horizontally */
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Change background color on hover */
+}
+
+/* Different CSS positioning properties */
+.basic {
+  margin-top: 50px; /* Adjust to avoid overlapping with navigation */
+  position: relative;
+  top: 150px; /* Adjusted from 100px to 150px */
+}
